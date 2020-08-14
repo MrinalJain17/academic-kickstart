@@ -3,17 +3,16 @@ sudo: required
 dist: trusty
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_Linux-64bit.deb
-  - sudo hugo_extended_0.74.3_Linux-64bit.deb
+  - sudo dpkg -i hugo*_Linux-64bit.deb
   - hugo version
 script:
   - hugo
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: false
-  local-dir: public
+  token: $GITHUB_TOKEN
+  keep_history: false
+  local_dir: public
   repo: MrinalJain17/MrinalJain17.github.io
-  target-branch: master
+  target_branch: master
   on:
     branch: master
