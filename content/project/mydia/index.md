@@ -1,6 +1,6 @@
 ---
 title: Mydia
-summary: A python library for efficiently reading videos as Numpy tensors.
+summary: A simple and efficient wrapper for reading videos as NumPy tensors.
 tags:
 - Open Source
 - Python

@@ -25,26 +25,28 @@ date_format = "Jan 2006"
   date_start = "2020-06-29"
   date_end = "2020-08-07"
   description = """
-  TODO
+  - Trained a Word2Vec-like model on customer product baskets to create a low-dimensional embedding space of these products (using TensorFlow).
+  - Implemented the measures of “complementarity” and “substitutability” between different products under the representation learning paradigm, inspired by the paper - [Product2Vec](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3519358).
+  - Used techniques like t-SNE to visualize the manifold and qualitatively validate that a pair of products that are complementary or substitutes must be close in the embedding space.
   """
 
 [[experience]]
   title = "Data Science Intern"
   company = "Noodle.ai"
-  company_url = "https://noodle.ai/"
+  company_url = ""
   location = "Bengaluru, India"
   date_start = "2019-01-07"
   date_end = "2019-05-03"
   description = """
   - Designed the pipeline that was internally used by the data science team for pre-processing and structuring different time-series datasets for problems like forecasting and anomaly detection.
-  - Developed a modular, reusable, and comprehensively documented python framework (called “sequel”) for creating and training sequence-to-sequence models using Keras.
-  - Used “sequel” to benchmark different deep learning architectures (like vanilla RNNs, sequence-to-sequence models) for multi-variate time series forecasting (on internal datasets of the company).
+  - Developed a modular and reusable python framework (called “sequel”) for working with sequence-to-sequence models in Keras.
+  - Designed a benchmark suite for evaluating different sequence-to-sequence architectures for multivariate time series forecasting (on internal datasets of the company).
   """
 
 [[experience]]
   title = "Data Science Intern"
   company = "Noodle.ai"
-  company_url = "https://noodle.ai/"
+  company_url = ""
   location = "Bengaluru, India"
   date_start = "2018-05-21"
   date_end = "2018-06-22"
@@ -57,7 +59,7 @@ date_format = "Jan 2006"
 # [[experience]]
 #   title = "Data Science Intern"
 #   company = "Noodle.ai"
-#   company_url = "https://noodle.ai/"
+#   company_url = ""
 #   location = "Bengaluru, India"
 #   date_start = "2017-06-12"
 #   date_end = "2017-07-14"
