@@ -3,6 +3,8 @@ title: Generating bird’s-eye view from multi-image scene using self-supervised
 summary: Prof. Yann LeCun's Deep Learning Course at NYU, Spring 2020
 tags:
 - Deep Learning
+- Computer Vision
+- Self-supervised Learning
 date: "2016-04-27T00:00:00Z"
 weight: 10
 

@@ -3,6 +3,7 @@ title: Human Activity Recognition
 summary: Video Classification using 3D Convolutional Neural Networks
 tags:
 - Deep Learning
+- Computer Vision
 date: "2016-04-27T00:00:00Z"
 weight: 30
 
