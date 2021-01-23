@@ -4,7 +4,7 @@ summary: A simple and efficient wrapper for reading videos as NumPy tensors.
 tags:
 - Open Source
 - Python
-date: "2016-04-27T00:00:00Z"
+date: "2019-01-15T00:00:00Z"
 weight: 20
 
 # Optional external URL for project (replaces project detail page).
@@ -33,6 +33,6 @@ url_video: ""
 slides: ""
 ---
 
-- Developed an efficient and user-friendly python library for reading videos as NumPy tensors with more than 50,000* cumulative downloads (according to the tracker [PePy](https://pepy.tech/project/mydia)).
+- Developed an efficient and user-friendly python library for reading videos as NumPy tensors with more than 55,000* cumulative downloads (according to the tracker [PePy](https://pepy.tech/project/mydia)).
 - Utilized python’s multiprocessing capabilities to read (multiple) videos in parallel, thereby reducing video processing time by 4x compared to other similar tools.
 - Implemented other features, including custom frame selection in videos, frame resizing, grayscale conversion, and pixel normalization.

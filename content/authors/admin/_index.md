@@ -18,7 +18,7 @@ organizations:
   url: "https://cds.nyu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Learning to teach machines to learn.
+bio: Trying to make silicon do what carbon can.
 
 interests:
 - Machine Learning
@@ -70,4 +70,4 @@ email: ""
 # - Visitors
 ---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Trying to make silicon do what carbon can. Download my {{< staticref "files/Resume.pdf" "newtab" >}}resumé {{< icon name="download" pack="fas" >}}{{< /staticref >}}.

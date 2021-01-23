@@ -1,11 +1,11 @@
 ---
 title: Generating bird’s-eye view from multi-image scene using self-supervised learning
-summary: Prof. Yann LeCun's Deep Learning Course at NYU, Spring 2020
+summary: Self-supervised learning in traffic environment 
 tags:
 - Deep Learning
 - Computer Vision
 - Self-supervised Learning
-date: "2016-04-27T00:00:00Z"
+date: "2020-05-15T00:00:00Z"
 weight: 10
 
 # Optional external URL for project (replaces project detail page).
@@ -34,6 +34,6 @@ url_video: ""
 slides: ""
 ---
 
-- Pre-trained a denoising auto-encoder to be used as a feature extractor for road map construction, using images captured from moving vehicles.
-- Combined the feature embeddings of the multi-view scene from each vehicle and used a U-Net to generate a top-down view of the binary road map.
-- Achieved a threat score of 0.70 on the hold-out test set as part of the intra-class competition (with the best score in the class being ~0.81).
+- Utilized a pre-trained denoising auto-encoder as a feature extractor for the task of road map construction.
+- Combined the feature embeddings of the multi-view scene captured from moving vehicles and used a U-Net to generate a top-down view of the binary road map.
+- Achieved a threat score of 0.70 on the hold-out test set (with the best score in the intra-class competition being ~0.81).

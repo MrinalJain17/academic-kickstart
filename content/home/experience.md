@@ -25,9 +25,9 @@ date_format = "Jan 2006"
   date_start = "2020-06-29"
   date_end = "2020-08-07"
   description = """
-  - Trained a Word2Vec-like model on customer product baskets to create a low-dimensional embedding space of these products (using TensorFlow).
-  - Implemented the measures of “complementarity” and “substitutability” between different products under the representation learning paradigm, inspired by the paper - [Product2Vec](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3519358).
-  - Used techniques like t-SNE to visualize the manifold and qualitatively validate that a pair of products that are complementary or substitutes must be close in the embedding space.
+  - Trained a Word2Vec-like model on customer product baskets to project ~10,000 unique products to a low-dimensional embedding space (using TensorFlow).
+  - Evaluated learned representations using the measures of “complementarity” and “substitutability” between different products, inspired by the paper - [Product2Vec](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3519358).
+  - Used t-SNE to visualize and qualitatively validate the embedding similarity between complementary/substitute products.
   """
 
 [[experience]]
@@ -38,9 +38,9 @@ date_format = "Jan 2006"
   date_start = "2019-01-07"
   date_end = "2019-05-03"
   description = """
-  - Designed the pipeline that was internally used by the data science team for pre-processing and structuring different time-series datasets for problems like forecasting and anomaly detection.
-  - Developed a modular and reusable python framework (called “sequel”) for working with sequence-to-sequence models in Keras.
-  - Designed a benchmark suite for evaluating different sequence-to-sequence architectures for multivariate time series forecasting (on internal datasets of the company).
+  - Developed a modular and reusable python framework for working with sequence-to-sequence models (using Keras).
+  - Designed a benchmark suite for evaluating different sequence-to-sequence architectures for multivariate time-series forecasting (on internal datasets of the company).
+  - Standardized and adapted the data preprocessing pipeline across various ongoing projects to handle time-series data.
   """
 
 [[experience]]
